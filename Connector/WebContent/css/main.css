@@ -1,0 +1,192 @@
+.content_padding {
+	padding : 25px 25px 25px 25px;
+}
+.subtitle {
+	font-size:22px;
+	text-align:right;
+	margin-top:50px;
+}
+.sitemap {
+	font-size:15px;
+	margin-top:50px;
+}
+.drama_list {
+	background-color: white;
+}
+.drama_menu {
+	background-color: white;
+}
+.sitemap {
+	margin-top: 30px;
+}
+
+.drama_list_table {
+	background-color: white;
+}
+
+
+.dtitle {
+	font-family: 'Jeju Gothic', serif;
+	font-size: 25px;
+	margin-bottom: 40px;
+	color: #4B4B4B;
+}
+.stitle{
+	font-family: 'Jeju Gothic', serif;
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #4B4B4B;
+}
+
+.dcontent {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #7d7c7c;
+}
+
+#listHr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+    margin-top:50px;
+    background-color: #f6caca;
+}
+#copyhr {
+    background-color: #f6caca;
+}
+.subtitle > a {
+	font-family: 'Jeju Gothic', serif;
+	color:#8babd6;
+}
+
+.subtitle > a:hover {
+	color:#f6caca;
+	text-decoration:none;
+	font-weight:bold;
+}
+.sitemap > a {
+	font-family: 'Jeju Gothic', serif;
+	color:#8babd6;
+}
+
+.sitemap > a:hover {
+	color:#f6caca;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+::selection{
+	background-color:white;
+	color:#f68a63;
+}
+.copyright{
+	font-family: 'Nanum Gothic', serif;
+	margin-top:50px;
+	margin-bottom:50px;
+	color: #4B4B4B;
+}
+.chr {
+	background-color: lightgray;
+	height: 1px;
+}
+#menubar{
+	display:inline;
+	border-left: 1px solid #c0c0c0;
+	
+}
+#td_index{
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom: 5px;
+	border:1px;
+	
+}
+#td_index_select{
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom: 5px;
+	border:1px;
+	
+}
+#td_index_select >a{
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:7px;
+	padding-bottom: 7px;
+	font-family: 'Nanum Gothic', serif;
+	font-weight: bold;
+	margin-top:50px;
+	margin-bottom:50px;
+	color: white;
+	background: #6f8a00;
+	text-decoration: none;
+	border-radius:5px;
+}
+#td_image{
+	padding-bottom:40px;
+	padding-left:10px;
+	font-family: 'Nanum Gothic', serif;
+	font-weight: bold;
+	color: #4B4B4B;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#td_content{
+	padding-bottom:40px;
+	padding-left:10px;
+	font-family: 'Nanum Gothic', serif;
+	font-weight: bold;
+	color: #4B4B4B;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#td_index >a{
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:7px;
+	padding-bottom: 7px;
+	font-family: 'Nanum Gothic', serif;
+	font-weight: bold;
+	color: white;
+	margin-top:50px;
+	margin-bottom:50px;
+	background: #f6caca;
+	text-decoration: none;
+	border-radius:5px;
+}
+#td_index > a:hover{
+	color: white;
+	background: #6f8a00;
+}
+#history {
+	color: #f4541a;
+	text-decoration: none;
+}
+
+.btitle {
+	font-family: 'Jeju Gothic', serif;
+	font-size: 30px;
+	color: #4B4B4B;
+}
+
+.bcontent {
+	color: #7d7c7c;
+	font-size: 13px;
+}
+
+.margin_bottom {
+	margin-bottom: 50px;
+}
+
+.header {
+	 margin-top:30px;
+}
+
+.content {
+	width: device-width;
+	margin-top: 20px;
+}
+
+.orange {
+	color: #f4541a;
+}

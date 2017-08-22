@@ -1,0 +1,79 @@
+@CHARSET "EUC-KR";
+table.one {
+	margin-bottom: 3em;
+	border-collapse: collapse;
+}
+td {
+	text-align: center;
+	width: 10em;
+	padding: 1em;
+}
+tr {
+	text-align: center;
+	height: 3em;
+}
+table tr:nth-child(even) {
+	background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+	background-color: #fff;
+}
+.calendar {
+	font-family: 'Jeju Gothic', serif;
+	color: #4B4B4B;
+	border: 1;
+	width:700px;
+	height:40px;
+	cellspacing:0;
+}
+.calendar_content {
+	font-family: 'Jeju Gothic', serif;
+	font-size: 15px;
+}
+.balloon {
+	position:relative;
+	display:inline-block;
+}
+.balloon span {
+	display:inline-block;
+	padding:10px;
+	color:#fff;
+	background:#7d1919;
+	border-radius:20px;
+	}
+.balloon:after {
+	content:''; 
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+.balloon.month:after {
+	border-width: 10px 15px;
+	top: 50%;
+	margin-top: -10px;
+}
+.balloon.month:after {
+	border-color: transparent transparent transparent #7d1919;
+	right: -25px;
+}
+
+.custom-counter {
+    margin-left: 40%;
+    padding-right: 0;
+    list-style-type: none;
+}
+.custom-counter li {
+    counter-increment: step-counter;
+}
+.custom-counter li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: rgb(200,200,200);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+}

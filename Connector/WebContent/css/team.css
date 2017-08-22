@@ -1,0 +1,47 @@
+.team_create:link, .team_create:visited {
+	color: #f6CACA;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Nanum Gothic', serif;
+	float: right;
+}
+.team_create:hover, .team_create:active {
+	color: #7DB1BC;
+	text-decoration: none;
+	font-weight: bold;
+    float: right;
+}
+
+.team_sub_menu:link, .team_sub_menu:visited {
+	color: #f6CACA;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Nanum Gothic', serif;
+	margin-right:30px;
+	
+}
+.team_sub_menu:hover, .team_sub_menu:active {
+	color: #7DB1BC;
+	text-decoration: none;
+	font-weight: bold;
+}
+.form {
+	 border: 1px solid lightgray;
+	 border-radius: 10px;
+	 float: left;
+	 width: 30%;
+	 padding:10px;
+	 height: 300px;
+	 margin-bottom: 50px;
+}
+
+
+.selectForm:hover, .selectForm:active {
+	text-decoration: none;
+	border-radius: 10px;
+	color: #343e50;
+}
+.selectForm:link, .selectForm:visited {
+	text-decoration: none;
+	color: #4B4B4B;
+}

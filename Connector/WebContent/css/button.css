@@ -1,0 +1,91 @@
+.sbtn {
+    color: white;
+    font-weight: bold; 
+    background-color: #6A998F;
+    border-width: medium;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width:100px;
+}
+.sbtn:hover {
+	color: #6A998F;
+    background-color: white;
+    border-color: #6A998F;
+    border-width: medium;
+    width:100px;
+}
+
+.cbtn {
+    color: white;
+    font-weight: bold; 
+    border-width: medium;
+    background-color: #F68A63;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width:100px;
+}
+.cbtn:hover {
+	color: #F68A63;
+    background-color: white;
+    border-color: #F68A63;
+    border-width: medium;
+    width:100px;
+}
+
+.rbtn {
+    color: white;
+    font-weight: bold; 
+    border-width: medium;
+    background-color: #FFDC3C;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width:100px;
+}
+.rbtn:hover {
+	color: #FFDC3C;
+    background-color: white;
+    border-color: #FFDC3C;
+    border-width: medium;
+    width:100px;
+}
+
+.bbtn {
+    color: white;
+    font-weight: bold; 
+    border-width: medium;
+    background-color: #06aeff;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width:100px;
+}
+.bbtn:hover {
+	color: #06aeff;
+    background-color: white;
+    border-color: #06aeff;
+    border-width: medium;
+    width:100px;
+}
+
+.okbtn {
+    color: white;
+    font-weight: bold; 
+    border-width: medium;
+    background-color: #06aeff;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width:50px;
+    height:30px;
+}
+.okbtn:hover {
+	color: #06aeff;
+    background-color: white;
+    border-color: #06aeff;
+    border-width: medium;
+    width:50px;
+    height:30px;
+}
+
+#login_btn {
+	color:red
+}
+

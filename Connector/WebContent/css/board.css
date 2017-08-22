@@ -1,0 +1,141 @@
+.sbtn {
+    color: white;
+    font-weight: bold; 
+    background-color: #6A998F;
+    border-width: medium;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width:100px;
+}
+.sbtn:hover {
+	color: #6A998F;
+    background-color: white;
+    border-color: #6A998F;
+    border-width: medium;
+    width:100px;
+}
+
+.cbtn {
+    color: white;
+    font-weight: bold; 
+    border-width: medium;
+    background-color: #F68A63;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width:100px;
+}
+.cbtn:hover {
+	color: #F68A63;
+    background-color: white;
+    border-color: #F68A63;
+    border-width: medium;
+    width:100px;
+}
+
+.rbtn {
+    color: white;
+    font-weight: bold; 
+    border-width: medium;
+    background-color: #FFDC3C;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    width:100px;
+}
+.rbtn:hover {
+	color: #FFDC3C;
+    background-color: white;
+    border-color: #FFDC3C;
+    border-width: medium;
+    width:100px;
+}
+.total {
+	color: #7d7c7c;
+	font-size: 13px;
+	float: right;
+	margin-right:25px;
+} 
+
+label {
+	color: #7d7c7c;
+}
+
+.gcolor {
+	color: #6A998F;
+}
+.ocolor {
+	color: #F68A63;
+}
+.golist:link, .golist:visited {
+	color: #7d7c7c;
+	font-size: 13px;
+	font-family: 'Nanum Gothic', serif;
+	float: right;
+}
+.golist:hover, .golist:active {
+	color: #F68A63;
+	text-decoration: none;
+	font-weight: bold;
+    float: right;
+}
+.gowrite {
+	color: #F68A63;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: medium;
+    width:120px;
+    font-family: 'Nanum Gothic', serif;
+    font-weight: bold;
+    float: right;
+}
+.gowrite:hover {
+	color: white;
+    background-color: #F68A63;
+    border-color: transparent;
+    border-width: medium;
+    width:120px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    font-family: 'Nanum Gothic', serif;
+    font-weight: bold;
+    float: right;
+}
+
+.board_list {
+	font-family: 'Jeju Gothic', serif;
+	color: #4B4B4B;
+}
+
+.list_tr:hover {
+	background-color: #FAFAAA;
+	-webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.list_title {
+	background-color: #FAFAAA;
+	padding: 5px;
+}
+.list_content {
+	font-family: 'Nanum Gothic', serif;
+	color: #7d7c7c;
+	padding: 5px;
+}
+
+.bottom_border {
+	border-bottom: 1.5px solid #6A998F;
+}
+.num_select {
+	color: #F68A63;
+	font-family: 'Nanum Gothic', serif;
+}
+.num {
+	color: #7d7c7c;
+	font-family: 'Nanum Gothic', serif;
+}
+
+.error {
+	font-family: 'Jeju Gothic', serif;
+	color: #4B4B4B;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20%;
+}
